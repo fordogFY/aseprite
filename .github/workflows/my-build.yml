@@ -20,7 +20,7 @@ jobs:
 
     - name: Download Skia prebuilt binary
       run: |
-        curl -L -o Skia-Windows-Release-x64.zip https://github.com/aseprite/skia/releases/download/m102-861e474326/Skia-Windows-Release-x64.zip
+        curl -L -o Skia-Windows-Release-x64.zip https://github.com/aseprite/skia/releases/download/m102-861e474326/Skia-Windows-Release-x64-m102.zip
         7z x Skia-Windows-Release-x64.zip -o"C:\skia"
 
     - name: Configure CMake
